@@ -12,3 +12,11 @@ go build -o 花雨庭查成分.exe
 ```
 windres -o app.syso -i app.rc
 ```
+
+### 请求 UAC 并添加图标
+
+```
+rsrc -manifest manifest.xml -ico app.ico -o app.syso
+```
+
+注意 `syso` 文件只能存在一个
