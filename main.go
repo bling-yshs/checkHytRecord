@@ -22,7 +22,7 @@ func main() {
         fmt.Println("正在发送请求到 " + BedWarsQuestUrl)
         getRecord(BedWarsQuestUrl, "起床战争", id)
         fmt.Println()
-        SkyWarsQuestUrl := "http://mc-api.16163.com/search/bedwars.html?uid=" + encodeId
+        SkyWarsQuestUrl := "http://mc-api.16163.com/search/skywars.html?uid=" + encodeId
         fmt.Println("正在发送请求到 " + SkyWarsQuestUrl)
         getRecord(SkyWarsQuestUrl, "空岛战争", id)
         fmt.Println()
